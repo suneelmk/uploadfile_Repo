@@ -1,0 +1,19 @@
+Procedure to push framework to GitHub:
+
+AS a framework developer/TL:
+
+1.Create maven project-->Create generic utils
+2.connect to GitHub account-->Create one repository
+3.GO to eclipse-->right click-->teams--> share project-->create local repo
+4.GO to eclipse-->right click-->teams--> Move file from unstaged area to staged area using 'COMMIT' command
+5.GO to eclipse-->right click-->teams-->enter GitHub 'URI'and user credentials-->and click on 'PUSH'command
+ 
+
+As a TE:
+1.Go to eclipse-->File-->import-->click on Git folder-->projects from Git-->clone URI-->enter URI and user credentials-->Finish
+2.Start implementing testscripts to our allocated modules
+3.Go to eclise-->right ckick-->teams--> Move file from unstaged area to staged area using 'COMMIT' command
+4.Create one new branch-->push the code to new branch
+5.go to github-->raise pull request to 'merge' code to master branch
+
+------------------------------------------------------------------------------------------------------------------------------------
